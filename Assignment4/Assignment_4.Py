@@ -61,3 +61,4 @@ document = input("Yêu cầu bạn nhập văn bản:")
 hidden_num = redact_phone_numbers(document)
 print("Sau khi ẩn ố điện thoại:")
 print(hidden_num)
+
