@@ -1,0 +1,38 @@
+1.
+Write a program that asks the user to enter numbers until they input an empty string to quit
+At the end, the program prints out the five greatest numbers sorted in descending order. 
+ Hint: You can reverse the order of sorted list items by using the sort method with the reverse=True argument.
+
+2.
+Write a program that asks the user for a number of a month and then prints out the corresponding season (spring, summer, autumn, winter).
+Save the seasons as strings into a tuple in your program. We can define each season to last three months, December being the first month of winter.
+
+3.
+Write a program that asks the user to enter names until they enter an empty string. 
+After each name is read, the program either prints out New name or Existing name depending on whether the name was entered for the first time. 
+Finally, the program lists out the input names one by one, one below another in any order. Use the set data structure to store the names.
+
+4.
+Write a function that will determine the frequency of a word (i.e. how many times does a word appears) in a given piece of text.
+Hint: Use the dictionary data structure.
+
+5.
+Write a function that gets a list of integers as a parameter.
+The function returns a second list that is otherwise the same as the original list except that all odd numbers have been removed.
+For testing, write a main program where you create a list, call the function, and then print out both the original as well as the cut-down list.
+
+6.
+(Bonus) Implement an algorithm for calculating an approximation for the value of pi (π). The details for the algorithm are as follows:
+
+Let's assume that A is a unit circle. A unit circle has the radius of one and it is centered at the origin (0,0).
+Smallest possible square B is drawn around the unit circle so that circle A is completely inside the square.  
+The corners of the square are now (-1,-1), (1, -1), (1, 1), and (-1, 1).
+If a large number of random points are scattered inside the square, the fraction of points that fall inside the circle A correlates with the fraction of the area of circle A compared to the area of square B: πr^2/4 = π*1^2/4 = π/4.
+
+This can be used as a simple method for calculating an approximation of the value of pi:
+Let's generate a large number of random points, such as one million, inside square B.
+Let N be the total number of random points. Each point inside the square is tested for whether it resides inside circle A.
+Let n be the total number of points that fall inside circle A. Now we have n/N≈π/4, and from that we get π≈4n/N.
+
+Write a program that asks the user how many random points to generate, and then calculates the approximate value of pi using the method explained above.
+At the end, the program prints out the approximation of pi to the user. (Notice that it is easy to test if a point falls inside circle A by testing if it fulfills the inequation x^2+y^2<1.).
