@@ -1,5 +1,5 @@
 import re
-#task 1
+#===================task 1=================
 def valid_course_code(code):
     if len(code) !=6:
         return False
@@ -15,7 +15,7 @@ if valid_course_code(course_code):
 else:
     print("Không xác nhận được mã môn học của bạn!")
 
-#task2
+#=================task2================
 def valid_hex_color(color):
     #kiểm tra độ dài và ký tự đầu
     if len(color) !=7 or color[0] != "#":
@@ -33,7 +33,7 @@ if valid_hex_color(color_code):
 else:
     print("Mã màu của bạn không hợp lệ!")
 
-#task3
+#==================task3==============
 def sum_num_in_text(text):
     #tìm các chuỗi số trong đoạn văn bản
     numbers = re.findall(r'\d+', text)
@@ -45,7 +45,7 @@ paragraph = input("Mời bạn nhập văn bản:")
 result = sum_num_in_text(paragraph)
 print("Tổng các số tìm được: ", result)
 
-#task4
+#===================task4================
 def redact_phone_numbers(text):
     pattern = r'(\b\d{10}\b|\+84\d+)'
 # Pattern:
@@ -61,4 +61,6 @@ document = input("Yêu cầu bạn nhập văn bản:")
 hidden_num = redact_phone_numbers(document)
 print("Sau khi ẩn ố điện thoại:")
 print(hidden_num)
+
+#==================end================
 
