@@ -1,0 +1,9 @@
+1.Your university uses course codes that consist of 3 uppercase letters, followed by 3 digits (e.g., "TEC001"). 
+  Write a function that returns True if a given string matches this format and False otherwise.
+2. Web colors are often written in hexadecimal format: a # followed by exactly 6 characters (digits 0-9 or letters A-F, case insensitive)
+  Write a function that checks if a given string is a valid hex color or not.
+3.Write a function that will find all numbers in a given paragraph, then calculate the sum of all numbers you've found. For example:
+  Input: "Today is January 16, 2025. The temperature is 11 degrees Celsius."
+  Output: 2052
+4.For privacy reasons, you need to hide phone numbers in a document.
+  Write a function that replaces any sequence of 10 digits or those that starts with "+84" with the string [REDACTED]. 
