@@ -9,3 +9,4 @@ area = length * width
 # Print results
 print("Perimeter:", perimeter)
 print("Area:", area)
+
