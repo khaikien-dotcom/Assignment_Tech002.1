@@ -1,0 +1,6 @@
+Garen, 67
+Darius, 36
+Jayce, 18
+Yasuo, 69
+Yona, 44
+Jinx, 13
